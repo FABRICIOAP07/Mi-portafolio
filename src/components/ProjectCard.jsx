@@ -1,40 +1,34 @@
-import React from 'react';
-
-export const ProjectCard = ({ title, description, tags, githubUrl, demoUrl }) => {
+export const ProjectCard = ({ title, description, tags, imageUrl, githubUrl, demoUrl }) => {
   return (
-    <div className="card">
-      <h3>{title}</h3>
-      <p>{description}</p>
-      
-      <div style={{ margin: '15px 0' }}>
-        {tags.map((tag, index) => (
-          <span key={index} className="tag">
-            {tag}
-          </span>
-        ))}
+    <div className="card-proyecto">
+      {/* 1. Captura de pantalla */}
+      <div className="proyecto-imagen">
+        <img src={imageUrl} alt={`Captura de ${title}`} />
       </div>
 
-      <div style={{ display: 'flex', gap: '10px', marginTop: '20px' }}>
-        {demoUrl && (
-          <a 
-            href={demoUrl} 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="btn"
-          >
-            Probar App 
-          </a>
-        )}
+      {/* 2. Información del proyecto */}
+      <div className="proyecto-info">
+        <h3>{title}</h3>
+        <p>{description}</p>
         
-        <a 
-          href={githubUrl} 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="btn btn-secondary"
-          style={{ background: '#334155' }}
-        >
-          GitHub 
-        </a>
+        {/* Etiquetas de las tecnologías usadas */}
+        <div className="proyecto-tags">
+          {tags.map((tag, index) => (
+            <span key={index} className="tag">{tag}</span>
+          ))}
+        </div>
+
+        {/* 3. Enlaces al código y a la demo */}
+        <div className="proyecto-links">
+          <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="btn-code">
+            Ver Código (GitHub)
+          </a>
+          {demoUrl && (
+            <a href={demoUrl} target="_blank" rel="noopener noreferrer" className="btn-demo">
+              Probar App 🚀
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );
