@@ -73,7 +73,7 @@ function App() {
             tags={["React", "JavaScript", "html"]}
             imageUrl={imgISSRASTREADOR} // Cambia esto por tu captura de pantalla
             githubUrl="https://github.com/FABRICIOAP07/Rasteador-de-ISS.git" // Tu enlace de GitHub
-            demoUrl="http://localhost:5173" // Mientras tanto puedes dejar tu local o quitarlo si deseas
+            demoUrl="https://rasteador-de-iss-git-main-gian-s-projects9.vercel.app/" // Mientras tanto puedes dejar tu local o quitarlo si deseas
           />
 
           <ProjectCard 
@@ -91,7 +91,7 @@ function App() {
             tags={["Recharts"]}
             imageUrl={imgDASHBOARDCRIPTOMONEDAS} // Cambia esto por tu captura de pantalla
             githubUrl="https://github.com/FABRICIOAP07/Dashoboard_demonedas" // Tu enlace de GitHub
-            demoUrl="http://localhost:5173" // Mientras tanto puedes dejar tu local o quitarlo si deseas
+            demoUrl="https://dashoboard-demonedas.vercel.app/" // Mientras tanto puedes dejar tu local o quitarlo si deseas
           />
 
           <ProjectCard 
@@ -100,7 +100,7 @@ function App() {
             tags={["Node.js", "React", "QRCode"]}
             imageUrl={imgCONVERTIDORQR} // Cambia esto por tu captura de pantalla
             githubUrl="https://github.com/FABRICIOAP07/generador_QR.git" // Tu enlace de GitHub
-            demoUrl="http://localhost:5173" // Mientras tanto puedes dejar tu local o quitarlo si deseas
+            demoUrl="https://generador-qr-swart.vercel.app/" // Mientras tanto puedes dejar tu local o quitarlo si deseas
           />
 
           <ProjectCard 
