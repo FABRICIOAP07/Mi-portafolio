@@ -55,7 +55,7 @@ function App() {
             tags={["React", "JavaScript", "Regex", "CSS3"]}
             imageUrl={imgANALIZADORDECONTRASENAS}// Cambia esto por tu captura de pantalla
             githubUrl="https://github.com/FABRICIOAP07/analizador-contrasenas.git" // Tu enlace de GitHub
-            demoUrl="http://localhost:5173" // Mientras tanto puedes dejar tu local o quitarlo si deseas
+            demoUrl="https://analizador-contrasenas.vercel.app/" // Mientras tanto puedes dejar tu local o quitarlo si deseas
           />
 
           <ProjectCard 
