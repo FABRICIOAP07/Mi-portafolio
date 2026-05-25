@@ -20,14 +20,12 @@ export const ProjectCard = ({ title, description, tags, imageUrl, githubUrl, dem
 
         {/* 3. Enlaces al código y a la demo */}
         <div className="proyecto-links">
-          <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="btn-code">
-            Ver Código (GitHub)
+          <a href={demoUrl} target="_blank" rel="noopener noreferrer" className="btn">
+            Probar App
           </a>
-          {demoUrl && (
-            <a href={demoUrl} target="_blank" rel="noopener noreferrer" className="btn-demo">
-              Probar App 
-            </a>
-          )}
+          <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+          GitHub
+          </a>
         </div>
       </div>
     </div>
