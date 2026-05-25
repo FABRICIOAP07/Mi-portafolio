@@ -59,5 +59,6 @@ export const Header = () => (
         Descargar CV
       </a>
     </div>
+    
   </header>
 );
