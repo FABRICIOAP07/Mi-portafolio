@@ -12,6 +12,7 @@ import { CertificateCard } from './components/CertificateCard';
 import certpitunipython from './assets/certificadodepythonpituni.JPG'
 import certJS from './assets/JSCERTIFICADOCISCO.JPG'
 import certcmasmas from './assets/C++CISCO.JPG'
+import chatdua from './assets/chatdual.JPG'
 
 
 
@@ -63,8 +64,9 @@ function App() {
             title="Chat en Tiempo Real"
             description="Aplicación de mensajería instantánea utilizando arquitectura cliente-servidor mediante WebSockets. Permite comunicación bidireccional inmediata."
             tags={["Node.js", "Express", "Socket.io", "React"]}
-           
+            imageUrl={chatdua}
             githubUrl="https://github.com/FABRICIOAP07/Chat-dual" // Tu enlace de GitHub
+            demoUrl="https://drive.google.com/file/d/1u7dzVP5hLpeZ0SJQmwldK4_7PZxlfzvq/view"
           />
 
           <ProjectCard 
@@ -77,13 +79,14 @@ function App() {
           />
 
           <ProjectCard 
-            title="Acortador de URLs Personalizado"
-            description="GEl usuario ingresa una URL larga y el sistema genera una corta. Al usar la corta, el servidor redirecciona a la original"
-            tags={["Node.js con Express, React"]}
-            imageUrl={imgACORTADORDEURL} // Cambia esto por tu captura de pantalla
-            githubUrl="https://github.com/FABRICIOAP07/Acortador_De_URL.git" // Tu enlace de GitHub
-            demoUrl="http://localhost:5173" // Mientras tanto puedes dejar tu local o quitarlo si deseas
-          />
+            title="Acortador de URLs"
+            description="Desarrollo de un sistema Full-Stack para optimizar, almacenar y redireccionar enlaces dinámicos mediante identificadores únicos."
+            tags={["Node.js", "Express"]}
+            imageUrl={imgACORTADORDEURL}
+            githubUrl= "https://github.com/FABRICIOAP07/Acortador_De_URL.git" Tu link de GitHub real
+            demoUrl="https://drive.google.com/file/d/1VbwC1WHRFTzeMacw79mkXzEGgQjUlj_w/view?usp=sharing" 
+          /> 
+
 
           <ProjectCard 
             title="Dashboard de Criptomonedas"
@@ -109,17 +112,9 @@ function App() {
             tags={[, "Python: Openpyxl", "Excel"]}
             // Cambia esto por tu captura de pantalla
             githubUrl="https://github.com/FABRICIOAP07/Automatizacion-de-excel-con-python.git" // Tu enlace de GitHub
-             // Mientras tanto puedes dejar tu local o quitarlo si deseas
           />
 
-          <ProjectCard 
-            title="Conexion ETL"
-            description="GEl usuario ingresa una URL larga y el sistema genera una corta. Al usar la corta, el servidor redirecciona a la original"
-            tags={["SQL Server", "Excel", "VS 2025"]}
-        // Cambia esto por tu captura de pantalla
-            githubUrl="https://github.com/FABRICIOAP07/password-analyzer" // Tu enlace de GitHub
-             // Mientras tanto puedes dejar tu local o quitarlo si deseas
-          />
+
         </div>
       </section>
 

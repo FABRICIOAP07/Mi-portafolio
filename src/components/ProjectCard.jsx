@@ -25,7 +25,7 @@ export const ProjectCard = ({ title, description, tags, imageUrl, githubUrl, dem
           </a>
           {demoUrl && (
             <a href={demoUrl} className="btn-demo">
-              Probar App 
+              Ver
             </a>
           )}
         </div>
