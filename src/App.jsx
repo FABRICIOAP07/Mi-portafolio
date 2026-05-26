@@ -109,7 +109,7 @@ function App() {
             tags={[, "Python: Openpyxl", "Excel"]}
             // Cambia esto por tu captura de pantalla
             githubUrl="https://github.com/FABRICIOAP07/Automatizacion-de-excel-con-python.git" // Tu enlace de GitHub
-            demoUrl="http://localhost:5173" // Mientras tanto puedes dejar tu local o quitarlo si deseas
+             // Mientras tanto puedes dejar tu local o quitarlo si deseas
           />
 
           <ProjectCard 
@@ -118,7 +118,7 @@ function App() {
             tags={["SQL Server", "Excel", "VS 2025"]}
         // Cambia esto por tu captura de pantalla
             githubUrl="https://github.com/FABRICIOAP07/password-analyzer" // Tu enlace de GitHub
-            demoUrl="http://localhost:5173" // Mientras tanto puedes dejar tu local o quitarlo si deseas
+             // Mientras tanto puedes dejar tu local o quitarlo si deseas
           />
         </div>
       </section>
