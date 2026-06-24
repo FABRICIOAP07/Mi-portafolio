@@ -145,8 +145,8 @@ function App() {
           
           <CertificateCard 
             title="PYTHON FOT DATA ANALYST"
-            issuer=""
-            imageUrl={CERTIFICADODEPYTHONFOTDATAANALYST} 
+            issuer="idat"
+            imageUrl={certificadopythonidat} 
           />
 
         </div>
