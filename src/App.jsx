@@ -13,7 +13,7 @@ import certpitunipython from './assets/certificadodepythonpituni.JPG'
 import certJS from './assets/JSCERTIFICADOCISCO.JPG'
 import certcmasmas from './assets/C++CISCO.JPG'
 import chatdua from './assets/chatdual.JPG'
-import certificadopythonidat from './assets/certificadopythonidat.JPG'
+import certificadopythonidat from './assets/CERTIFICADODEPYTHONIDAT.JPG'
 
 
 
