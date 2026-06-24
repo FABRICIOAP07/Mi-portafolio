@@ -141,6 +141,13 @@ function App() {
             imageUrl={certcmasmas} 
           />
 
+          
+          <CertificateCard 
+            title="PYTHON FOT DATA ANALYST"
+            issuer=""
+            imageUrl={CERTIFICADODEPYTHONFOTDATAANALYST} 
+          />
+
         </div>
       </section>
       {/* SECCIÓN DE SKILLS CON LOGOS COMPLETOS */}
